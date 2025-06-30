@@ -22,5 +22,8 @@ Thumbs.db
 # Vercel/Deployment
 .vercel/
 
-# Secrets
+# Ignore all JSON files except package.json and package-lock.json
 *.json
+!package.json
+!package-lock.json
+
